@@ -1,0 +1,19 @@
+.user-btn{
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(255, 208, 0);
+    text-align: center;
+    
+    
+}
+
+.user-btn:hover{
+    background:rgb(249, 150, 12);
+}
+
+.user-main h2,button{
+    text-align: center;
+   
+
+}

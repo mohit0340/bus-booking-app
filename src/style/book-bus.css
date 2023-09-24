@@ -1,0 +1,88 @@
+.book-main{
+    width:40% ;
+    height:auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.book-main input{
+    width:100%;
+    margin-bottom: 5px;
+    padding: 0px 5px ;
+
+}
+
+.book-main select{
+    width:100%;
+    margin-bottom: 5px;
+    padding: 0px 5px ;
+}
+
+.book-main div{
+
+    display: flex;
+    justify-content: center;
+}
+
+.book-main .book-btn{
+    margin-top: 5px;
+    background-color: silver;
+    border: 1px solid black;
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.book-main .book-btn:hover{
+    background-color: rgb(255, 204, 0);
+   
+}
+
+/* seats */
+
+.bus-seats{
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    height: 100vh;
+    width: 511px;
+    margin-left: -48px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: space-around;
+
+    /* text-align: center; */
+}
+
+.bus-seats p{
+    width: 20%;
+    height: 80px;
+    border-radius:5px;
+    /* border: 1px solid black; */
+  
+}
+
+.available{
+    border:2px solid blue;
+    background-color: rgba(0, 0, 255, 0.199);
+}
+
+.notavailable{
+    border:2px solid rgb(255, 47, 0);
+    background-color: rgba(255, 0, 0, 0.179);
+    
+}
+
+.selected{
+    border: 2px solid rgb(6, 110, 6);
+    background-color: rgba(41, 229, 41, 0.5);
+
+}
+
+
+.sampleseat .span{
+    height: 10px;
+    width: 1vw;
+
+}

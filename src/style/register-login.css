@@ -1,0 +1,27 @@
+
+/* register css */
+
+.register-main{
+    width: 40%;
+    border:2px solid black;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+/* login css */
+
+.login-main{
+    width: 40%;
+    border:2px solid black;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

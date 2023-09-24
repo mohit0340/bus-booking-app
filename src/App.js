@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import { useNavigate } from 'react-router-dom';
 import './App.css';
-
+import Cover from "./assets/amitabcover.jpeg";
 function App() {
+const navigate=useNavigate()
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App container mt-2 mb-3s  d-flex justify-content-around">
+     <div> <p>Travel<br></br>Where<br></br> You<br></br>Want!</p><button onClick={()=>navigate("/bookbus")}>Book Bus</button></div>
+     <img src={Cover} width={650} height={400}></img>
+   
     </div>
   );
 }
