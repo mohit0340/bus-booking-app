@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bus-booking-app/static/css/main.877bb2d2.css",
+    "main.js": "/bus-booking-app/static/js/main.d0015cb0.js",
+    "static/js/787.a08dd0f4.chunk.js": "/bus-booking-app/static/js/787.a08dd0f4.chunk.js",
+    "static/media/err.gif": "/bus-booking-app/static/media/err.a3f64d1a4498d0cbd779.gif",
+    "static/media/amitabcover.jpeg": "/bus-booking-app/static/media/amitabcover.0f4b6d71af945852e5ea.jpeg",
+    "index.html": "/bus-booking-app/index.html",
+    "main.877bb2d2.css.map": "/bus-booking-app/static/css/main.877bb2d2.css.map",
+    "main.d0015cb0.js.map": "/bus-booking-app/static/js/main.d0015cb0.js.map",
+    "787.a08dd0f4.chunk.js.map": "/bus-booking-app/static/js/787.a08dd0f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.877bb2d2.css",
+    "static/js/main.d0015cb0.js"
+  ]
+}
